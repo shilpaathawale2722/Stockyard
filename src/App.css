@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.maindiv{
+display: flex;
+}
