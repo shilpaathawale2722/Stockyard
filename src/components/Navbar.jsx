@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router';
 import { useSelector } from 'react-redux'
 
@@ -6,8 +5,6 @@ import { useSelector } from 'react-redux'
 const Navbar = () => {
   
   const cart = useSelector((store) => {
-    console.log(store);
-
     return store.cartCounter.count;
   })
 
